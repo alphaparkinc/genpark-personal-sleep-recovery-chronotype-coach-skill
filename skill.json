@@ -1,0 +1,33 @@
+{
+  "name": "genpark-personal-sleep-recovery-chronotype-coach-skill",
+  "version": "1.0.0",
+  "description": "Chronotype-aligned circadian sleep architecture calculator optimizing 90-minute ultradian cycles, caffeine cutoffs, and light exposure.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "personal-agent",
+    "sleep-coach",
+    "chronotype",
+    "circadian-rhythm",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "calculate_sleep_cycles",
+      "description": "Calculate 90-minute sleep cycle bedtime windows for a target wake time."
+    },
+    {
+      "name": "compute_caffeine_cutoff",
+      "description": "Determine strict afternoon caffeine cutoff based on bedtime."
+    },
+    {
+      "name": "generate_circadian_schedule",
+      "description": "Generate full day circadian light and focus schedule."
+    },
+    {
+      "name": "run_benchmark_sleep_chronotype",
+      "description": "Run sleep architecture benchmark tests."
+    }
+  ]
+}
